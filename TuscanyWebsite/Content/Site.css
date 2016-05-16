@@ -1,0 +1,188 @@
+﻿body {
+    text-align:center;    
+}
+.header{
+    background-color:lightgray;
+    min-height:125px;
+}
+.row{
+    padding:0px;
+    margin:0px;
+}
+.inner-container{
+    border:0px;
+    align-content:center;
+    padding:10px;
+    margin: auto;
+}
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 0;   
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #000;
+    background-color: transparent;
+    font-size:16px;
+    margin-top:5px;
+}
+.nav>li>a:hover{
+    background-color:transparent;
+    color:#236165;    
+}
+button.btn:hover{
+    background:#334545;
+    color:#fff;
+}
+.btn-rev{
+    background-color:#19bb71; 
+    color:white; 
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top:0px;
+    margin-bottom:0px;
+}
+
+.menubar{
+      
+    min-height:56px;
+}
+.logo{
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:6px;
+    background-color:#087790;
+    color:#fff;
+}
+.prop{
+    background-color:aquamarine;
+    color:white;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:6px;
+}
+.square{
+    min-height:348px;
+}
+.featured{
+    min-height:500px;   
+}
+
+
+.grid{
+    border:.5px solid lightgray;
+}
+
+.vertical-center{
+    align-items:center;
+    display:flex;
+}
+.overlay{
+    background: #484646;
+    color: #fff;
+    opacity: .8;
+    width: 60%;
+    margin: auto;
+}
+.lil-overlay{
+    background:#319a9a;
+    position:absolute;    
+    bottom:35%;
+    left:67%;    
+    color:#fff;
+    width:10%;
+
+}
+.bottom-overlay{
+    min-height:65px;
+    position:absolute;
+    bottom:5px;
+    left:2%;  
+    background: #484646;
+    color: #fff;
+    opacity: .8;
+    width: 75%;     
+}
+
+
+.color-overlay{
+    min-height:65px;
+    position:absolute;
+    bottom:5px;
+    left:77%;
+    background:teal;
+    color:#fff;
+    
+    width:20%;
+}
+.lil-bottom-overlay{
+    
+    background:#319a9a;
+    position:absolute;
+    bottom:10%;
+    left:5%;
+    color:#fff;
+    width:10%;
+}
+.img-responsive{
+    background-size:100% auto;
+}
+.trust{
+    background-color:#19bb71;
+    color:white;
+}
+.zoom{
+    background-size:cover;   
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .2s ease-in-out;    
+}
+.zoom:hover {
+    cursor: pointer;
+    background-size:110%;    
+}
+.wedding{
+    background:url(images/3b-348x348.jpg) center no-repeat;
+    background-size:cover;   
+}
+.friends{
+    background:url(images/42-348x348.jpg) center no-repeat;
+    background-size:cover;   
+}
+.family{
+    background:url(images/Villa-Vanna-231-348x348.jpg) center no-repeat;
+    background-size:cover;
+}
+.gigli{
+    background:url(images/Villa-Rucellai-Toscani-2812-2-348x348.jpg) center no-repeat;
+    background-size:cover;
+}
+.lavilla{
+    background:url(images/314-348x348.jpg) center no-repeat;
+    background-size:cover;
+    
+}
+.paola{
+    background:url(images/Villa-Rucellai-Toscani-2750-2-348x348.jpg) center no-repeat;
+    background-size:cover;
+}
+.holidayhome{
+    background: url(images/tuscany-villas-sant-anna.jpg) center no-repeat;
+    background-size:cover;
+}
+.tuscany{
+    background:url(images/Versilia.jpg) center no-repeat;
+    background-size:cover;  
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+     padding-right: 0px !important; 
+     padding-left: 0px !important; 
+}
